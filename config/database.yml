@@ -1,0 +1,23 @@
+development:
+    adapter: postgresql
+    encoding: unicode
+    database: library_development
+    username: bryananderson
+    password: kb9lqx
+    host: localhost
+
+test:
+    adapter: postgresql
+    encoding: unicode
+    database: library_test
+    username: bryananderson
+    password: kb9lqx
+    host: localhost
+
+production:
+    adapter: postgresql
+    encoding: unicode
+    database: library_production
+    username: bryananderson
+    password: kb9lqx
+    host: localhost
